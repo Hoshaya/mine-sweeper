@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onInit()">
+
+    <h1>Minesweeper</h1>
+    <h2>Choose a level</h2>
+
+    <!-- <button onclick="onToggleGame()">New Game</button> -->
+    <button onclick="setLevel(16)">eazy(16)</button>
+    <button onclick="setLevel(25)">hard(25)</button>
+    <button onclick="setLevel(36)">extreme!(36)</button>
+    <button oncontextmenu="return false" onmousedown="fdhfg(event,0,1)">extrempppe!(36)</button>
+    <!-- <button onclick="helloUSser('hoshaya')">hello hoshaya</button>
+    <button onclick="helloUSser('moshe')">hello moshe</button> -->
+
+    <!-- <table border="20" cellpadding="25"> -->
+    <table oncontextmenu="return false" border="20" cellpadding="25">
+        <tbody class="board">
+
+        </tbody>
+    </table>
+
+
+
+
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+<!-- strHTML += `<td class="td${i}${j}" data-i="${i}" data-j="${j}" onmousedown="onCellClicked(this,'${currCell}',event,0,1,)"  ></td>` -->

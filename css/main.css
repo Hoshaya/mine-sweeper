@@ -1,0 +1,16 @@
+
+
+.board{
+
+    background-color: gray;
+}
+
+
+td{
+    height: 20px;
+    width: 10px;
+    text-emphasis: none;
+    
+    
+    
+}
