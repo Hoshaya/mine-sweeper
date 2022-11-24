@@ -14,20 +14,39 @@
     <h1>Minesweeper</h1>
     <h2>Choose a level</h2>
 
+
+
     <!-- <button onclick="onToggleGame()">New Game</button> -->
-    <button onclick="setLevel(16)">eazy(16)</button>
-    <button onclick="setLevel(25)">hard(25)</button>
-    <button onclick="setLevel(36)">extreme!(36)</button>
-    <button oncontextmenu="return false" onmousedown="fdhfg(event,0,1)">extrempppe!(36)</button>
+    <button onclick="setLevel(4)">Beginner(4)</button>
+    <button onclick="setLevel(8)"> Medium(8)</button>
+    <button onclick="setLevel(12)">Expert!(12)</button>
+
+    <h1 class="emoji">🙂</h1>
+
+    <div class="titel1"> <span>flags: </span>
+        <span class="markedCount">2</span>
+        <span class="life1"> life:<span class="life">
+                3</span></span> <span class="timer">
+            <span class="min">00</span>:<span class="sec">00</span></span>
+    </div>
+
+
+
     <!-- <button onclick="helloUSser('hoshaya')">hello hoshaya</button>
     <button onclick="helloUSser('moshe')">hello moshe</button> -->
 
     <!-- <table border="20" cellpadding="25"> -->
-    <table oncontextmenu="return false" border="20" cellpadding="25">
+    <!-- <table oncontextmenu="return false" border="20" cellpadding="15"> -->
+    <table oncontextmenu="return false">
         <tbody class="board">
 
         </tbody>
     </table>
+
+
+
+    <div class="footer">Hoshaya Sharabi</div>
+
 
 
 
@@ -39,3 +58,13 @@
 </html>
 
 <!-- strHTML += `<td class="td${i}${j}" data-i="${i}" data-j="${j}" onmousedown="onCellClicked(this,'${currCell}',event,0,1,)"  ></td>` -->
+
+
+
+
+<!-- for (var k = 0; k < gMinesLocation.length; k++) {
+    var elTd = document.querySelector('td')
+    elTd.innerHTML = gBoard[gMinesLocation[i].indexI][gMinesLocation[i].indexI].isMine
+    elTd.style.backgroundColor = ' rgb(235, 57, 57)'
+
+} -->

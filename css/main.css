@@ -1,16 +1,122 @@
 
 
+body{
+    text-align: center; 
+    background-color: cadetblue;
+    
+}
+
+.titel1{
+
+    background-color: darkorange;
+
+
+    
+
+
+    background-color: lightgrey;
+    /* padding: 10px; */
+    /* margin-top: 10px; */
+    border-top: 2px solid black;
+    
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 20px;
+    padding: 5px;
+}
+
+.markedCount{
+
+    margin-right:50px;
+    color: red;
+    /* background-color: black; */
+    
+}
+
+.life1{
+    margin-right: 20px;
+    
+
+
+}
+
+.min{
+    margin-left:20px;
+    margin-top: 20px;
+
+    
+
+
+}
+
+.timer{
+    margin-top: 20px;
+    color: red;
+    /* background-color: black; */
+    text-align: center;
+    
+    
+
+
+}
+button{
+    /* margin-bottom: 20px; */
+    border: none;
+    cursor: pointer;
+    
+
+}
+
+
+table{
+
+        margin: auto;
+        margin-top: 3px;
+        background-color: rgb(227, 201, 71);
+        cursor: pointer;
+    
+    
+}
+
+/* .cell{
+    width: 20px;
+    height: 20px;
+    background-color: darkgoldenrod;
+    text-align: center;
+} */
+
 .board{
+    
 
     background-color: gray;
+    /* background-color: rgb(251, 245, 245); */
 }
 
 
 td{
-    height: 20px;
-    width: 10px;
+    height: 40px;
+    width: 40px;
     text-emphasis: none;
     
     
     
 }
+.board td:hover {
+    background-color: rgb(154, 161, 170);
+
+}
+
+
+.footer {
+    background-color: lightgrey;
+    padding: 10px;
+    margin-top: 10px;
+    border-top: 2px solid black;
+    
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
