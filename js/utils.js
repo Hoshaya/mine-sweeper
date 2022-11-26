@@ -156,3 +156,34 @@ function countFoodAround(board, rowIdx, colIdx) {
   }
   return negsCount
 }
+
+
+function timer() {
+  //sec
+  var elSec = document.querySelector('.sec')
+  var currSec = elSec.innerText
+  currSec++
+  elSec.innerText = currSec
+  //min
+  var elMin = document.querySelector('.min')
+  var currMin = elMin.innerText
+  if (currSec > 60) {
+    currMin++
+    elMin.innerText = currMin
+    //need to reset the sec
+    currSec = 0
+    elSec.innerText = currSec
+  }
+
+}
+
+
+function restartTimer() {
+
+  clearInterval(gInterval)
+  document.querySelector('.min').innerText = '00'
+  document.querySelector('.sec').innerText = '00'
+
+
+
+}
